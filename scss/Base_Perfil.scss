@@ -1,0 +1,59 @@
+
+#Nav{
+    background-color: rgba(133, 130, 130, 0.473);
+    
+}
+#Fundo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: rgb(238, 236, 236);
+}
+#FotoDePerfil{
+   float: left;
+   border-radius: 20px;
+   margin-right: 40px;
+ 
+   
+}
+
+$gradient: linear-gradient(120deg, rgb(1, 1, 167) 30%, rgb(155, 3, 3) 90%);
+#Conteudo{
+    background-color: rgba(21, 0, 49, 0.562);
+    margin-top: 80px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#Info{
+    padding-top: 30px;
+}
+#PerfilTecnico{
+    margin-top: 100px;
+  
+}
+#Info_Pessoal{
+    margin-top: 50px;
+    font-size: 15px;
+}
+#Info_Pessoal ul li{
+    display: inline;
+    
+}
+#Info_Pessoal h3{
+    font-size: 20px;
+}
+#Info_Pessoal h4{
+    font-size: 20px;
+}
+#Info_Pessoal h5{
+    font-size: 20px;
+}
+#Info_Pessoal h6{
+    font-size: 20px;
+}
+#Nome{
+    margin-top: 70px;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
