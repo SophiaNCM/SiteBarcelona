@@ -1,0 +1,48 @@
+
+#Nav{
+    background-color: rgba(133, 130, 130, 0.473);
+    
+}
+
+$gradient: linear-gradient(120deg, rgb(1, 1, 167) 30%, rgb(155, 3, 3) 90%);
+#logo{
+    background: rgb(22, 1, 117);
+   
+}
+$light: rgba(117, 114, 114, 0.582);
+#posicao{
+    color: white;
+    font-size: 30px
+}
+.card{
+    margin-top: 15px;
+    background: gray;
+   
+}
+.card-body{
+    background-color: rgb(255, 255, 255);
+   
+}
+.card-text{
+   
+    font-size: 20px;
+    color: black;
+    
+}
+#link{
+    text-decoration: none;
+}
+h3{
+    padding: 25px;
+}
+.card-title{
+    color: black;
+
+}
+#conteudo{
+    margin-top: 40px;
+    border-radius: 10px
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
